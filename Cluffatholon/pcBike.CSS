@@ -1,0 +1,24 @@
+.log-title {
+  grid-column: 1 / span 12;
+  grid-row: 5 / span 1;
+}
+
+#log-title {
+  display: flex;
+  justify-content: center;
+}
+
+.log-the-ride {
+  grid-column: 2 / span 10;
+  grid-row: 7 / span 8;
+}
+
+.points-gained {
+  grid-column: 2 / span 10;
+  grid-row: 10 / span 4;
+}
+
+.send-to-ryan {
+  grid-column: 2 / span 10;
+  grid-row: 14 / span 4;
+}

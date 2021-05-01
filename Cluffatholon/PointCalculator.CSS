@@ -1,0 +1,91 @@
+.intro {
+  grid-column: 1 / span 12;
+  grid-row: 5 / span 1;
+  display: flex;
+  justify-content: center;
+}
+
+.pcTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.pick-log {
+  grid-column: 2 / span 10;
+  grid-row: 7 / span 1;
+}
+
+.run {
+  grid-column: 1 / span 3;
+  grid-row: 7 / span 5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.run-img {
+  grid-column: 1 / span 3;
+  grid-row: 7 / span 5;
+}
+
+.bike {
+  grid-column: 4 / span 3;
+  grid-row: 7 / span 5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bike-img {
+  grid-column: 4 / span 3;
+  grid-row: 7 / span 5;
+}
+
+.healthy-eating {
+  grid-column: 7 / span 3;
+  grid-row: 7 / span 5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5em;
+}
+
+.healthy-eating-img {
+  grid-column: 7 / span 3;
+  grid-row: 7 / span 5;
+}
+
+.cross-training {
+  grid-column: 10 / span 3;
+  grid-row: 7 / span 5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross-training-img {
+  grid-column: 10 / span 3;
+  grid-row: 7 / span 5;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+}
+
+.text {
+  z-index: 2;
+  font-size: 3em;
+}
+
+.standings {
+  grid-column: 2 /span 10;
+  grid-row: 13 / span 10 ;
+  justify-content: center;
+}
+
+.standings-title {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+<head>
+  <meta charset="utf-8">
+  <title> Cluffathalon 2021 </title>
+  <link rel='stylesheet' href="main.CSS">
+  <link rel='stylesheet' href='pcBike.CSS'>
+</head>
+<body>
+  <div class='grid'>
+    <header> <h1 class='header'> Cluffathalon 2021 </h1> </header>
+    <nav>
+
+      <p class='nav-element' id='nav2'> <a href='PointCalculator.HTML'> Point Calculator/Standings </a> </p>
+      <p class='nav-element' id='nav3'> <a href='prize.HTML'> Prize </a> </p>
+      <p class='nav-element' id='nav4'> <a href='MoreInfo.HTML'> More Info </a> </p>
+    </nav>
+    <section class='log-title'>
+      <h2 id='log-title'> Enter your info to log your ride! </h2>
+    </section>
+    <section class='log-the-ride'>
+      <form>
+        <label for='place'> Where did you ride? (indoor or outdoor) </label>
+        <input type='text' id='place' name='place'>
+        <br>
+        <label for='difficulty'> How did you ride? (easy or hard) </label>
+        <input type='text' id='difficulty' name='difficulty'>
+        <br>
+        <label for='number'> How far did you ride? </label>
+        <input type='number' id='distance'>
+        <br>
+      </form>
+    </section>
+    <section class='points-gained'>
+        <button id='log'> Log Your Ride! </button>
+      <h2 id='points'> </h2>
+    </section>
+    <section class='send-to-ryan'>
+      <h2> Send your points to R-Chops </h2>
+      <form action="mailto:cluffryan05@gmail.com" method="post" enctype="text/plain">
+        Name: <input type='text' name='name'>
+        Points Gained <input type='number' name='pointsGained'>
+        <input type='submit' name='submit' value='submit'>
+      </form>
+    </section>
+    <footer class='footer'>
+      <p class='sponsor'> Cluffathalon 2021 is brought to you by Proper Whoopings USA </p>
+      <p class='copyright'> copyright Cluffathalon Inc 2021 </p>
+    </footer>
+  </div>
+  <script src='pcBike.JS'> </script>
+</body>
+</html>

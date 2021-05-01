@@ -1,0 +1,233 @@
+* {
+  font-family: papyrus;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(28, 50px);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+  grid-column: 1 / span 12;
+  grid-row: 1 / span 2;
+  display: flex;
+  justify-content: center;
+  background-color: #3399ff;
+}
+
+.header {
+  font-size: 3em;
+  text-shadow: .07em .07em white;
+  letter-spacing: .3em;
+}
+
+nav {
+  grid-column: 1 / span 12;
+  grid-row: 3 / span 1;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  border-bottom: 1px solid #3399ff;
+  border-right: 1px solid #3399ff;
+  border-left: 1px solid #3399ff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.welcome {
+  grid-column: 3 / span 8;
+  grid-row: 5 / span 3;
+}
+
+.welcome-title {
+display: flex;
+justify-content: center;
+}
+
+.welcome-paragraph {
+  display: flex;
+  justify-content: center;
+  align-text: center;
+}
+
+.meet {
+  grid-column: 2 / span 10;
+  grid-row: 9 / span 10;
+}
+
+.meet-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5em;
+}
+
+.jeff-pic {
+  grid-column: 1 / span 3;
+  grid-row: 10 / span 4;
+}
+
+#dad-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.nicole-pic {
+  grid-column: 4 / span 3;
+  grid-row: 10 / span 4;
+}
+#mom-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.emily-class-pic {
+  grid-column: 7 / span 3;
+  grid-row: 10 / span 4;
+}
+
+#emily-id-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.tyson-class-pic {
+  grid-column: 10 / span 3;
+  grid-row: 10 / span 4;
+}
+
+#tyson-id-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.justin-class-pic {
+  grid-column: 1 /span 3;
+  grid-row: 14 / span 4;
+}
+
+#justin-id-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.ryan-class-pic {
+  grid-column: 4 / span 3;
+  grid-row: 14 / span 4;
+}
+
+#ryan-id-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.abby-class-pic {
+  grid-column: 7 / span 3;
+  grid-row: 14 / span 4;
+}
+
+#abby-id-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.name-hover {
+  grid-column: 10 /span 3;
+  grid-row: 14 / span 4;
+}
+
+.name-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-title {
+  font-size: 3em;
+}
+
+#jeff-title {
+  display: none;
+}
+
+#nicole-title {
+  display: none;
+}
+
+#emily-title {
+  display: none;
+}
+
+#tyson-title {
+  display: none;
+}
+
+#justin-title {
+  display: none;
+}
+
+#ryan-title {
+  display: none;
+}
+
+#abby-title {
+  display: none;
+}
+
+.info-hover {
+  grid-column: 8 / span 5;
+  grid-row: 18 / span 3;
+}
+
+#jeff-info {
+  display: none;
+}
+
+#nicole-info {
+  display: none;
+}
+
+#emily-info {
+  display: none;
+}
+
+#tyson-info {
+  display: none;
+}
+
+#justin-info {
+  display: none;
+}
+
+#ryan-info {
+  display: none;
+}
+
+#abby-info {
+  display: none;
+}
+
+.footer {
+  grid-column: 1 / span 12;
+  grid-row: 25 / span 4;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+
+.sponsor {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
